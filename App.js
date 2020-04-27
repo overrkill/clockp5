@@ -19,6 +19,8 @@ console.log(col);
    background("#5d5d5a");
    stroke("#ffa45c");
 
+
+
    arc(0,0,390,390,0,sec);
    stroke("#ffcdab");
    arc(0,0,300,300,0,min);
@@ -39,5 +41,9 @@ console.log(col);
    stroke("#fff4e3");
    line(0,0,50,0);
    pop();
-
+   noStroke();
+   push();
+   fill(255);
+   ellipse(0,0,20);
+   pop();
  }
